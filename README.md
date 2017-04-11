@@ -9,7 +9,8 @@ f(x) = a*x^n + b*x^(n-1) + c*x^(n-2) + ... + C
 Solution:
 I think that in terms of programming and mathematics, the usage of matrices would help to compute the coefficients of a nth degree polynomial. For example, the polynomial f(x) = a*x^n + b*x^(n-1) + c*x^(n-2) + ... + C can be represented as
 
-A*X = Y 
+A*X = Y
+
 X = A' * Y
 
 In the above, A, X and Y are matrices and A' is the inverse of matrix A. 
